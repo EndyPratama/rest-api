@@ -44,14 +44,14 @@ $config['rest_default_format'] = 'json';
 |
 */
 $config['rest_supported_formats'] = [
-    'json',
-    'array',
-    'csv',
-    'html',
-    'jsonp',
-    'php',
-    'serialized',
-    'xml',
+  'json',
+  'array',
+  'csv',
+  'html',
+  'jsonp',
+  'php',
+  'serialized',
+  'xml',
 ];
 
 /*
@@ -556,11 +556,11 @@ $config['check_cors'] = false;
 |
 */
 $config['allowed_cors_headers'] = [
-    'Origin',
-    'X-Requested-With',
-    'Content-Type',
-    'Accept',
-    'Access-Control-Request-Method',
+  'Origin',
+  'X-Requested-With',
+  'Content-Type',
+  'Accept',
+  'Access-Control-Request-Method',
 ];
 
 /*
@@ -572,12 +572,12 @@ $config['allowed_cors_headers'] = [
 |
 */
 $config['allowed_cors_methods'] = [
-    'GET',
-    'POST',
-    'OPTIONS',
-    'PUT',
-    'PATCH',
-    'DELETE',
+  'GET',
+  'POST',
+  'OPTIONS',
+  'PUT',
+  'PATCH',
+  'DELETE',
 ];
 
 /*
