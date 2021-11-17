@@ -1,70 +1,60 @@
 ###################
-What is CodeIgniter
+  Rest-API-Basic
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+RESTful API / REST API is an application of the API (Application Programming Interface). While REST (Representational State Transfer) is an architectural method of communication that uses the HTTP protocol for data exchange where this method is often applied in application development.
+
+The HTTP methods commonly used in REST api are:
+
+- GET, serves to read data/resources from the REST server
+- POST, serves to create a new data/resource on the REST server
+- PUT, serves to update data/resources on the REST server
+- DELETE, serves to delete data/resources from the REST serve
+- OPTIONS, serves to get supported operations on resources from the REST server.
 
 *******************
 Release Information
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
-
-**************************
-Changelog and New Features
-**************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
-
-*******************
-Server Requirements
-*******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+This application was made starting on November 17, 2021. The purpose of making this application is to fulfill the assignment of a fire programming course in the informatics department of the "Veteran" national development university of East Java. Another goal of developing this application is to experiment or explore and share with others about how to create and use a simple rest api.
 
 ************
 Installation
 ************
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+To try or run this application don't forget to install this lib https://github.com/chriskacerguis/codeigniter-restserver in your composer. For detailed documentation, see the github. I will share the tutorial link below. I experimented with going through various sources.
 
-*******
-License
-*******
+##########################
+[Indonesia] Rest-API-Dasar
+##########################
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+RESTful API / REST API merupakan penerapan dari API (Application Programming Interface). Sedangkan REST (Representional State Transfer) adalah sebuah arsitektur metode komunikasi yang menggunakan protokol HTTP untuk pertukaran data dimana metode ini sering diterapkan dalam pengembangan aplikasi.
+
+Adapun metode HTTP yang secara umum dipakai dalam REST api adalah:
+
+- GET, berfungsi untuk membaca data/resource dari REST server
+- POST, berfungsi untuk membuat sebuah data/resource baru di REST server
+- PUT, berfungsi untuk memperbaharui data/resource di REST server
+- DELETE, berfungsi untuk menghapus data/resource dari REST serve
+- OPTIONS, berfungsi untuk mendapatkan operasi yang disupport pada resource dari REST server.
+
+*******************
+Release Information
+*******************
+
+Aplikasi ini dibuat mulai tanggal 17 November 2021. Tujuan dari pembuatan aplikasi ini adalah untuk memenuhi tugas mata kuliah pemrograman api pada jurusan informatika universitas pembangunan nasional "Veteran" Jawa Timur. Tujuan lain dari pengembangan aplikasi ini adalah melakukan percobaan atau eksplor dan sharing kepada yang lain mengenai bagaimana cara membuat dan menggunakan rest api sederhana.
+
+************
+Installation
+************
+
+Untuk mencoba atau menjalankan aplikasi ini jangan lupa untuk menginstall lib ini https://github.com/chriskacerguis/codeigniter-restserver pada composer kalian. Untuk detail dokumentasi dapat dilihat pada github tersebut. Untuk link tutorialnya akan saya bagi di bawah. Saya melakukan percobaan dengan melalui berbagai sumber.
+
 
 *********
-Resources
+Resource
 *********
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+-  Konsep Restful API Programming (Bagian-1) [https://www.mii.co.id/en/insight/listing/2021/06/21/03/58/konsep-restful-api-programming-bagian-1]
+-  Perbedaan antara API, REST API, dan RESTful API [https://medium.com/jagoanhosting/perbedaan-antara-api-rest-api-dan-restful-api-6a66d655a6c2]
+-  REST API #7 MEMBUAT REST SERVER (menggunakan CodeIgniter) [https://www.youtube.com/watch?v=cb3-Cm3Al3c]
